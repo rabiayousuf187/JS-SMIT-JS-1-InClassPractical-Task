@@ -14,3 +14,32 @@
     border: none;
     /* border-radius: 5px; */
 }
+.body{
+    background: linear-gradient(180deg, #501111, #591b948f),url(https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.body h1{
+    color: white;
+}
+div#heading {
+    height: 50%;
+    /* background: blue; */
+    margin: 0 auto;
+}
+
+section.form-sec {
+    height: 100%;
+}
+
+.container {
+    height: 90%;
+}
+
+.head-change{
+height: 100%;
+    text-align: center;
+    margin: 20% 50%;
+}

@@ -92,15 +92,19 @@
 
     <section class="form-sec">
         <div class="container">
-            <div class="heading">
+            <div id="heading" class="heading">
                 <h1>Registration Form:</h1>
             </div>
-            <form class="row g-3" method="" action="">
-                <div class="col-md-6">
+            <form id="form" class="row g-3" method="" action="">
+                <div class="col-md-12">
+                  <label for="user" class="form-label">Username</label>
+                  <input id="user" type="text" class="form-control" onfocus="enter('user')" onblur="exit('user')">
+                </div>
+                <div class="col-md-12">
                   <label for="email" class="form-label">Email</label>
                   <input id="email" type="email" class="form-control" onfocus="enter('email')" onblur="exit('email')">
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                   <label for="inputPassword4" class="form-label">Password</label>
                   <input id="password" type="password" class="form-control" onfocus="enter('password')" onblur="exit('password')">
                 </div>
