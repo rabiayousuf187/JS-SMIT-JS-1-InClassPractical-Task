@@ -7,8 +7,8 @@
     border: 2px solid blue;
     border-radius: 5px;
 }
-.alert {
-    padding: 20px 0px;
+.alert, #sub-btn, #msg-success {
+    margin: 20px 0px;
 }
 .exit {
     border: none;
