@@ -21,9 +21,15 @@ function submit(){
     console.log("country = ",country);
     
     if( email !== "" && password !== "" && city !== "" && country !== ""){
+        document.getElementById("alert").style.display = "none";
         document.getElementById("msg-success").style.display = "block";
-        
         console.log("Form is Valid");
+        setTimeout( ()=>{ 
+            document.getElementById("banner").style.display = "none"; 
+            document.getElementById("body").style.background = "url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_640.jpg')"; 
+        }, 1200);
+        
+        
         
     }
     else{
